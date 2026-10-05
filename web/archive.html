@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archival Query Terminal — Shinobi Intelligence Archive</title>
+  <meta name="description" content="Search the historical reconnaissance and courier observation records by sector identifier.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- Top System Header -->
+  <header class="system-header">
+    <div class="system-brand">
+      <div class="brand-emblem" aria-hidden="true"></div>
+      <div>
+        <div class="brand-title">Shinobi Intelligence Archive</div>
+        <div class="brand-sub">Leaf Cryptographic & Reconnaissance Bureau</div>
+      </div>
+    </div>
+    
+    <nav class="system-nav" aria-label="Main Navigation">
+      <a href="index.html" class="nav-link">Overview</a>
+      <a href="archive.html" class="nav-link active">Search Terminal</a>
+    </nav>
+
+    <div class="system-status">
+      <div class="status-indicator">
+        <span class="pulse-dot"></span>
+        <span>Terminal Active</span>
+      </div>
+      <div class="security-badge">Classified</div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <div class="archive-card">
+      <div class="card-topbar">
+        <div class="topbar-left">
+          <div class="terminal-dots">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+          </div>
+          <span>QUERY CONSOLE // DISPATCH ARCHIVES</span>
+        </div>
+        <div class="topbar-right">QUERY SYSTEM READY</div>
+      </div>
+
+      <div class="card-body">
+        <h1 class="page-title">Archive Search Terminal</h1>
+        <p class="page-subtitle">
+          Enter an operational sector identifier or archival observation index code recovered from 
+          field evidence to locate restricted intelligence records.
+        </p>
+
+        <!-- Search Form -->
+        <div class="search-form-wrapper">
+          <form id="archive-search-form" autocomplete="off">
+            <div class="search-input-group">
+              <input 
+                type="text" 
+                id="archive-query-input" 
+                class="search-input" 
+                placeholder="Enter archive identifier" 
+                aria-label="Archive Identifier Search"
+                required
+                autofocus
+              >
+              <button type="submit" class="btn-primary" id="btn-search-archive">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                Search Records
+              </button>
+            </div>
+            <div id="search-feedback-msg" class="search-feedback" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <div class="archival-notice-box" style="margin-top: 2rem;">
+          <div class="notice-title">Archival Query Guidance</div>
+          <div class="notice-text">
+            Standard reconnaissance entries follow designated mission observation sectors. 
+            Ensure identifiers are entered exactly as noted in recovered photographic or documentary metadata.
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem;">
+          <a href="index.html" class="btn-secondary">
+            &larr; Return to Central Overview
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- System Footer -->
+  <footer class="system-footer">
+    <div class="footer-content">
+      <div>HIDDEN LEAF INTELLIGENCE DIVISION &bull; ARCHIVAL QUERY SYSTEM</div>
+      <div>SECURITY CLEARANCE RESTRICTED // EVENT: SSP CTF</div>
+    </div>
+  </footer>
+
+  <script src="assets/archive.js"></script>
+</body>
+</html>

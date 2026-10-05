@@ -1,0 +1,33 @@
+======================================================================
+HIDDEN LEAF INTELLIGENCE ARCHIVE
+RECOVERY RECORD — K9
+======================================================================
+
+Classification : RESTRICTED // COURIER RECOVERY LOG
+Archive Node   : ARCHIVE-SEC-RECOVERY-09
+Sector Code    : SECTOR-K9
+Status         : DAMAGED ARCHIVAL FRAGMENT RESTORED
+
+Recovered from damaged archive storage.
+
+INVESTIGATION SUMMARY:
+Physical reconnaissance artifacts retrieved from the vicinity of the 
+Moon Bridge border crossing indicate that courier detachment 09 was 
+intercepted. The courier successfully detached the primary intelligence 
+capsule prior to capture.
+
+The first cryptographic fragment was preserved in the classified 
+record metadata. The secondary fragment recorded below completes the 
+authorization sequence.
+
+----------------------------------------------------------------------
+RECOVERED INTELLIGENCE FRAGMENT
+----------------------------------------------------------------------
+
+Fragment:
+
+ARCHIVE_K9}
+
+----------------------------------------------------------------------
+END OF RECOVERY RECORD K9
+======================================================================
